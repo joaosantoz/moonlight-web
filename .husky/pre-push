@@ -10,7 +10,7 @@ normal=$(tput sgr0)
 if [ "$branch" = "main" ]; then
   echo '\n'
   echo '\n'
-  printf "${bold}${bg_red}Branch [$branch] can only be modified through pull requests.${clear}${normal}"
+  printf "${bold} ${bg_red}Branch [$branch] can only be modified through pull requests.${clear}${normal}"
   echo '\n'
   echo '\n'
   exit 1
